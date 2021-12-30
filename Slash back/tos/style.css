@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  float: left;
+  margin-right: 50px;
+}
+#title {
+  color: white;
+  position: relative;
+  top: 15px;
+  left: 450px;
+}
+#slogan {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  left: 450px;
+}

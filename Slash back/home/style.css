@@ -1,0 +1,121 @@
+body {
+  background-color: #262626;
+  min-width: 800px;
+}
+#top_bar_colour {
+  background-color: black;
+  height: 90px;
+  float: top;
+}
+.bar {
+  position: relative;
+  top: -103px;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  float: left;
+  position: relative;
+  top: -30px;
+}
+#title {
+  color: #6e6e6e;
+  font-size: 50px;
+  padding-left: 120px;
+  position: relative;
+  top: -9px;
+}
+.nav {
+  float: right;
+  font-size: 40px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  top: -10px;
+}
+#index_link {
+  color: darkslategray;
+}
+#about_link {
+  color: darkslategray;
+  padding-left: 10px;
+}
+#products_link {
+  color: darkslategray;
+  padding-left: 10px;
+}
+#tos_link {
+  color: darkslategray;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main_content {
+  padding: 1px 10px;
+  background-color: #3d3d3d;
+  position: relative;
+  height: 100%;
+  top: -125px;
+  color: white;
+}
+#slogan {
+  font-size: 50px;
+  position: relative;
+  top: -40px;
+}
+.comparison {
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+[data-component="slideshow"] .slide {
+  display: none;
+}
+[data-component="slideshow"] .slide.active {
+  display: block;
+}
+#comparison_slideshow {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  top: -80px;
+}
+#bar_chart {
+  max-height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: -50px;
+}
+#graph_text {
+  font-size: 30px;
+  display: flex;
+  max-width: 50%;
+  padding-left: 25%;
+  position: relative;
+  top: -50px;
+}
+#before {
+  padding-left: 6.25%;
+}
+#after {
+  padding-left: 15%;
+}
+#bottom_bar_colour {
+  background-color: black;
+  height: 90px;
+  position: relative;
+  top: -125px;
+}
+.placeholder {
+  font-size: 20px;
+  color: white;
+  margin-left: auto;
+  width: 50%;
+  position: relative;
+  top: -200px;
+}
